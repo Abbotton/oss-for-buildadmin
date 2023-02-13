@@ -1,0 +1,28 @@
+export default {
+    basic_setting: '基础配置',
+    local: '本地存储',
+    storage_driver: '存储方式',
+    aliyun: '阿里云',
+    aliyun_config: '阿里云配置',
+    aliyun_access_key_id: '阿里云AccessKey Id',
+    aliyun_access_key_secret: '阿里云AccessKey Secret',
+    aliyun_bucket: '阿里云Bucket名称',
+    aliyun_cdn_url: '阿里云CDN域名',
+    aliyun_url: '阿里云存储区域',
+
+    cos: '腾讯云',
+    cos_config: '腾讯云配置',
+    cos_bucket: '腾讯云Bucket名称',
+    cos_cdn_url: '腾讯云CDN域名',
+    cos_url: '腾讯云存储区域',
+    cos_secret_id: '腾讯云Secret Id',
+    cos_secret_key: '腾讯云Secret Key',
+
+    qiniu: '七牛云',
+    qiniu_config: '七牛云配置',
+    qiniu_access_key: '七牛云AccessKey',
+    qiniu_secret_key: '七牛云SecretKey',
+    qiniu_bucket: '七牛云Bucket名称',
+    qiniu_cdn_url: '七牛云CDN域名',
+    qiniu_url: '七牛云存储区域',
+}

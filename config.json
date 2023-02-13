@@ -1,0 +1,15 @@
+{
+    "require": {
+        "qiniu/php-sdk": "^7.7",
+        "aliyuncs/oss-sdk-php": "^2.6",
+        "qcloud/cos-sdk-v5": "^2.5",
+        "qcloud_sts/qcloud-sts-sdk": "3.0.*"
+    },
+    "dependencies": {
+        "jssha": "^3.2.0",
+        "cos-js-sdk-v5": "^1.4.6"
+    },
+    "protectedFiles": [
+        "web/src/components/mixins/baUpload.ts"
+    ]
+}
