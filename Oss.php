@@ -18,7 +18,8 @@ use think\facade\Event;
 class Oss
 {
     private static $config;
-    private $uid = 'oss';
+    
+    private $uid = 'oss_all_in_one';
 
     public function __construct()
     {
