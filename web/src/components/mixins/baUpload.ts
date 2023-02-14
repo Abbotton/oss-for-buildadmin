@@ -5,7 +5,6 @@ import {randomNum, shortUuid} from '/@/utils/random';
 import {fullUrl} from '/@/utils/common';
 import COS from 'cos-js-sdk-v5';
 import jsSHA from 'jssha';
-import { isAdminApp } from '/@/utils/common';
 
 export const state = () => {
     const siteConfig = useSiteConfig();
@@ -140,7 +139,7 @@ export function getSaveName(file: UploadRawFile, sha1: string) {
 
 function uploadCallback(file: UploadRawFile, fileUrl: string, sha1: string, siteConfig: anyObj) {
     createAxios({
-        url: isAdminApp() ? '/admin/routine.oss/callback' : '/api/Oss/callback',
+        url: '/admin/routine.oss/callback',
         method: 'POST',
         data: {
             url: fileUrl,
